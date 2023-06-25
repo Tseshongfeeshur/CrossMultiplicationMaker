@@ -25,7 +25,7 @@ int main() {
 	a = n1 * n2;
 	b = n1 * n4 + n2 * n3;
 	c = n3 * n4;
-	cout << a << "x^2";
+	cout << "{" << a << "x^2";
 	if(b>=0)
 		cout << "+";
 	cout << b << "x";
@@ -39,6 +39,6 @@ int main() {
 	cout << n2 << "x";
 	if(n4>=0)
 		cout << "+";
-	cout << n4 << ")";
+	cout << n4 << ")}";
 	return 0;
 }
