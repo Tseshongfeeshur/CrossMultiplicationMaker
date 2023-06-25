@@ -17,7 +17,7 @@
 将下面的内容写入一个批处理
 
 ```batch
-CrossMultiplication.exe >output.txt
+CrossMultiplication.exe >>output.txt
 %0
 ```
 
